@@ -1,0 +1,41 @@
+@media screen and (max-width: 850px){
+    
+    .principal{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }  
+    
+}
+
+@media screen and (min-width: 1000px){
+    .descricao{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .primeiro-anime{
+        width: 420px;
+    }
+    .segundo-anime{
+        width: 420px;
+    }
+    .terceiro-anime{
+        width: 420px;
+    }
+
+  .principal .titulo{
+        margin-top: 100px;
+    }
+    
+    header .container{
+        text-align: center;
+    }
+
+}
+

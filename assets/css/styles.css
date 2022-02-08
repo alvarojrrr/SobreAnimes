@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --azul: #0918e5e8;
+    --preto: #141414;
+}
+
+/*Elementos Base*/
+
+body{
+    background-color: var(--preto);
+    font-family: 'Arial';
+    color: white;
+}
+
+header .container{
+    background-color: #1E1A1A;
+   display:flex;
+   flex-direction:row;
+   align-items: center;
+   justify-content: space-between;
+}
+  
+header .logo{
+    color: rgba(255, 136, 0, 0.849);
+    font-family:  'Arial Black';
+    font-size: 50px;
+}
+
+/*Animes Principais*/
+
+.principal{              
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;        
+}
+
+.primeiro-anime{    
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../img/tokyo-capa.jpg);
+    
+    margin-top: 10px;
+    border-radius: 15px;
+    margin-right: 5px;
+    font-size: 16px;   
+    height: 450px;
+    width: 600px;
+    background-size: cover;    
+    padding-top: 100px;
+}
+
+.segundo-anime{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../img/shingeki-capa.jpg);
+
+    margin-top: 10px;
+    border-radius: 15px;
+    margin-right: 5px;
+    font-size: 16px;   
+    height: 450px;
+    width: 600px;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.terceiro-anime{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../img/kimetsu-capa.jpg);
+    
+    margin-top: 10px;
+    border-radius: 15px;
+    font-size: 16px;   
+    height: 450px;
+    width: 600px;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.principal .descricao{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.titulo{    
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/*Botões*/
+
+.botao-menu{
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 0px;
+
+    background-color: #1E1A1A;
+    color: white;    
+    border: none;
+    
+    padding: 30px;    
+    font-size: 15px;
+    
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao-menu:hover{
+    background-color: rgba(0,0,0,.50);      
+    cursor: pointer;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    color: white;    
+    border: none;
+
+    margin-left: 10px;
+    padding: 15px;
+    margin-right: 5px;
+    font-size: 12px;
+    border-radius: 10px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;    
+    cursor: pointer;
+}
+
+.botao i{
+    margin-right: 5px;    
+}
+
+.box-anime{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.container i{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box-anime:hover{        
+    cursor: pointer;
+}
+
+.carrosel-animes p{
+    
+    margin-left: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+footer{
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;    
+}
+
+li{
+    margin-right:15px;
+}
+

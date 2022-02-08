@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.photo{
+    border-radius: 50%;
+    border: 1px solid #505050;
+}
+
+main{
+    display: block;
+    text-align: center;
+    border: 5px solid white;
+}
+
+footer{
+    margin-top: 10px;
+}
+
+.post{
+   margin: 50px;
+}
